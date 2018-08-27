@@ -2,6 +2,7 @@
 
 using namespace std;
 
+//function to check if a number is an integer
 bool checkPrime(int number){
 	bool isPrime = true;
 	
@@ -16,9 +17,13 @@ bool checkPrime(int number){
 }
 
 int main(){
+	//start
 	
+	//Declares variable number
 	int number;
 	cout << "Enter an Integer: ";
+	
+	//Assigns Variable to a integer value
 	cin >> number;
 	
 	if (number == 1){
@@ -31,4 +36,5 @@ int main(){
 	}
 
 	return 0;
+	//exit program
 }

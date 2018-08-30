@@ -21,7 +21,7 @@ int main(){
 	
 	//Declares variable number
 	int number;
-	cout << "Enter an Integer: ";
+	cout << "Enter a Positive Integer: ";
 	
 	//Assigns Variable to a integer value
 	cin >> number;
